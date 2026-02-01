@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Melly Sol Catering | Private Luxury Dining</title>
+
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --text: #f4f4f4;
+      --muted: #b8b8b8;
+      --accent: #c9a24d;
+      --card: #1a1a1a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.65)
+      ),
+      url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092")
+      center / cover no-repeat;
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      font-weight: 500;
+      margin-bottom: 16px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      max-width: 620px;
+      margin: 0 auto 40px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 42px;
+      border-radius: 40px;
+      background: var(--accent);
+      color: #000;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 1px;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 90px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-title h2 {
+      font-size: 2.4rem;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 32px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 36px;
+      border-radius: 18px;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      padding: 50px 10%;
+      text-align: center;
+      background: #080808;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer span {
+      color: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Melly Sol Catering</h1>
+    <p>
+      Private, bespoke culinary experiences for discerning clients who value
+      discretion, refinement, and flawless execution.
+    </p>
+    <a href="#contact" class="btn">Private Consultation</a>
+  </div>
+</header>
+
+<section>
+  <div class="section-title">
+    <h2>Our Philosophy</h2>
+    <p>Luxury that speaks quietly — and lasts</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Discretion First</h3>
+      <p>
+        We operate with absolute confidentiality. Guest lists, locations,
+        and details remain private — always.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Bespoke Menus</h3>
+      <p>
+        Every menu is custom-designed, reflecting personal taste,
+        dietary preferences, and cultural nuance.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>White-Glove Service</h3>
+      <p>
+        Calm, professional, and invisible when needed — present only where
+        excellence demands it.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Private Services</h2>
+    <p>By referral or consultation only</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Estate & Home Dining</h3>
+      <p>
+        Intimate dinners and extended stays for private residences
+        and luxury estates.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Executive & Diplomatic Events</h3>
+      <p>
+        Refined service for confidential meetings, retreats,
+        and formal gatherings.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Invitation-Only Celebrations</h3>
+      <p>
+        Milestones, anniversaries, and private celebrations
+        curated with intention.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <p>
+    <span>Melly Sol Catering</span> • El Paso, Texas<br/>
+    Private Inquiries: +1 (724) 407-0534
+  </p>
+</footer>
+
+</body>
+</html>
